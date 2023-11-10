@@ -3,7 +3,7 @@ import "./globals.css"
 
 export const metadata = {
   title: 'Clean Eyes',
-  description: 'Clean your eyes magn. You deserve it',
+  description: 'Clean your eyes mahn. You deserve it',
 }
 
 export default function RootLayout({ children }) {
