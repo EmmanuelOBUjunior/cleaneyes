@@ -1,8 +1,6 @@
 
 import '@/styles/globals.css'
 
-
-
 export const metadata = {
   title: 'Clean Eyes',
   description: 'Clean your eyes mahn, you deserve it',
