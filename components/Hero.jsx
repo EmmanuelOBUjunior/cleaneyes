@@ -9,7 +9,7 @@ const Hero = () => {
     </div>
     <h1 className='text-3xl text-gray-700 uppercase font-bold'>Welcome to Clean Eyes👌</h1>
     <p className='text-gray-700'>Find our thrilling and exciting featured movies here. Trust me you will love it❤️</p>
-    <button className='bg-gray-700 text-white '>Contact Us</button>
+    <button className='bg-gray-700 text-white px-3'>Contact Us</button>
    </div>
   )
 }
