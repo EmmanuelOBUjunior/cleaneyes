@@ -2,11 +2,12 @@
 import {useEffect, useState} from 'react';
 
 const PopularMovies = () => {
+    const MY_API_KEY = '770394810aba91efa65fbbc53aa4de60'
     const [movies, setMovies] = useState()
 
     useEffect(() =>{
         const getMovies = async () => {
-            const fetchMovies = await fetch(`https://api.themoviedb.org/3/movie/popular?language=en-US&page=1&api_key=${process.env.MY_API_KEY}`);
+            const fetchMovies = await fetch(`https://api.themoviedb.org/3/movie/popular?language=en-US&page=1&api_key=${MY_API_KEY}`);
             const movieresponse = await fetchMovies.json();
             console.log(movieresponse.results)
             
