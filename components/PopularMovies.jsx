@@ -1,10 +1,5 @@
-'use client'
-
-import { useEffect, useState } from "react"
 
 const PopularMovies = () => {
-    const [movies, setMovies] = useState();
-
     const options = {
         method: 'GET',
         headers: {
