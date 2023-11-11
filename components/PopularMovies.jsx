@@ -5,7 +5,7 @@ const PopularMovies = () => {
 
   return (
     <>
-
+        <div>Popular Movies Here</div>
     </>
   )
 }
