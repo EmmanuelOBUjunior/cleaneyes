@@ -3,10 +3,10 @@ import PopularMovies from "@/components/PopularMovies"
 
 export default function Home() {
   return (
-    <>
+    <section>
     <Hero/>
     <PopularMovies/>
-    </>
+    </section>
   )
 }
 
