@@ -1,5 +1,6 @@
 'use client'
 import {useEffect, useState} from 'react';
+import MovieCard from './MovieCard';
 
 
 
@@ -25,7 +26,7 @@ const PopularMovies = () => {
             movies && movies.length && movies.map((movie) =>{
                 return(
                     <>
-                    <h3>{movie.original_title}</h3>
+                    <MovieCard/>
                     </>
                 )
             })
