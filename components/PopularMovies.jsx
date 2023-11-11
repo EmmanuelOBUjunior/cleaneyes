@@ -19,12 +19,12 @@ const PopularMovies = () => {
     },[])
   return (
     <>
-        <div className='text-center text-4xl font-neue'>What's Popular
+        <div className='text-center text-4xl font-neue container bg-gray-700'>What's Popular
         {
             movies && movies.length && movies.map((movie) =>{
                 return(
                     <>
-                    <h3>{movie.title}</h3>
+                    <h3>{movie.original_title}</h3>
                     </>
                 )
             })
