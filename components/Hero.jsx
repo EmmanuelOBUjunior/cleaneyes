@@ -10,7 +10,7 @@ const Hero = () => {
     </div>
     <h1 className='text-3xl text-gray-700 uppercase font-bold'>Welcome to Clean Eyes👌</h1>
     <p className='text-gray-700'>Find our thrilling and exciting featured movies here. Trust me you will love it❤️</p>
-    <Link>
+    <Link href="/contact">
     <button className='bg-gray-700 text-white py-3 px-6 text-sm mt-4 rounded hover:bg-gray-500'>Contact Us</button>
     </Link>
    </div>
