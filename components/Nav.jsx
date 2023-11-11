@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className='bg-gray-700'>
         <div>
-            <Link>
+            <Link href= "/">
                 <a>Clean
                     <span>Eyes</span>
                 </a>
