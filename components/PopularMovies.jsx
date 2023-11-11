@@ -7,6 +7,8 @@ const PopularMovies = () => {
 
             console.log(response)
         }
+
+        getMovies()
     },[])
   return (
     <div>PopularMovies</div>
