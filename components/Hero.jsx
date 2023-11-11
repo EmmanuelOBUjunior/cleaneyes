@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='w-60 mx-auto'>
        <Image alt = "Picture of a guy sitting watching movie" src={"/undraw_home_cinema_l7yl.png"} width={200} height={200}/> 
     </div>
-    <h1 className='text-2xl text-gray-700 uppercase font-bold'></h1>
+    <h1 className='text-3xl text-gray-700 uppercase font-bold'>Welcome to Clean Eyes👌</h1>
    </div>
   )
 }
