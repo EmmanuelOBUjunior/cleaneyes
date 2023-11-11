@@ -20,7 +20,7 @@ const PopularMovies = () => {
   return (
     <>
         <div className='font-neue container bg-gray-700 max-w-7xl m-auto pb-10 px-4'>
-            <h1 className='text-center text-2xl mt-8 mb-5'>What's Popular</h1>
+            <h1 className='text-center text-2xl mt-8 mb-5'>What is Popular</h1>
         {
             movies && movies.length && movies.map((movie) =>{
                 return(
