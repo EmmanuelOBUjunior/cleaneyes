@@ -6,9 +6,9 @@ const Nav = () => {
     <div className='bg-gray-700'>
         <div>
             <Link href= "/">
-                <a>Clean
+                <h1>Clean
                     <span>Eyes</span>
-                </a>
+                </h1>
             </Link>
         </div>
     </div>
