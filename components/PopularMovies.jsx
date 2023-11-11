@@ -10,7 +10,7 @@ const PopularMovies = () => {
             const movieresponse = await fetchMovies.json();
             console.log(movieresponse.results)
             
-            setMovies(movieresponse.result)
+            setMovies(movieresponse.results)
         }
 
         getMovies()
