@@ -10,6 +10,7 @@ const MovieCard = ({movie}) => {
         <div className="font-bold text-xl mb-1">
             {movie.title}
         </div>
+        <p className="text-gray-700 mb-1">{movie.release_date}</p>
     </div>
    </Link>
   )
