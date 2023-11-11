@@ -1,4 +1,5 @@
-import Hero from "@/components/Hero"
+import Image from "next/image"
+import Link from "next/link"
 import PopularMovies from "@/components/PopularMovies"
 
 export default function Home() {
