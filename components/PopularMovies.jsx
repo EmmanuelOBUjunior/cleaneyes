@@ -19,7 +19,8 @@ const PopularMovies = () => {
     },[])
   return (
     <>
-        <div className='text-center text-4xl font-neue container bg-gray-700 max-w-7xl m-auto pb-10 px-4'>What's Popular
+        <div className='font-neue container bg-gray-700 max-w-7xl m-auto pb-10 px-4'>
+            <h1 class>What's Popular</h1>
         {
             movies && movies.length && movies.map((movie) =>{
                 return(
