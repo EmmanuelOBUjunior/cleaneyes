@@ -17,7 +17,7 @@ const PopularMovies = () => {
     },[])
   return (
     <>
-        <div>Popular Movies Here</div>
+        <div className='text-center text-4xl font-neue'>Popular Movies Here</div>
         {
             movies && movies.length && movies.map((movie) =>{
                 return(
