@@ -22,10 +22,9 @@ const PopularMovies = () => {
     <>
         <div className='font-neue container bg-gray-700 max-w-7xl m-auto pb-10 px-4'>
             <h1 className='text-center text-2xl mt-8 mb-5 text-white'>What is Popular</h1>
-        <div className='grid gap- sm'>
+        <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
         {
             movies.map((movie) =>
-            
             <MovieCard movie = {movie} key={movie.id}/>)
         }
         </div>
