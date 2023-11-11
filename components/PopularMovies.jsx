@@ -1,8 +1,10 @@
 'use client'
 import {useEffect, useState} from 'react';
 
+
+const MY_API_KEY = process.env.API_KEY.toString()
+
 const PopularMovies = () => {
-    const MY_API_KEY = process.env.API_KEY
     const [movies, setMovies] = useState()
 
     useEffect(() =>{
