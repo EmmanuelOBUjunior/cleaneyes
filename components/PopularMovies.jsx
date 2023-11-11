@@ -17,6 +17,15 @@ const PopularMovies = () => {
   return (
     <>
         <div>Popular Movies Here</div>
+        {
+            movies.map((movie) =>{
+                return(
+                    <>
+                    <h3>{}</h3>
+                    </>
+                )
+            })
+        }
     </>
   )
 }
