@@ -2,7 +2,15 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div>This is our nav bar</div>
+    <div className='bg-gray-700'>
+        <div>
+            <Link>
+                <a>Clean
+                    <span>Eyes</span>
+                </a>
+            </Link>
+        </div>
+    </div>
   )
 }
 
