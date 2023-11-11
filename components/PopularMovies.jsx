@@ -1,6 +1,8 @@
+'use client'
+
 import { useEffect } from "react"
 const PopularMovies = () => {
-    
+
 
     useEffect(() =>{
         const getMovies = async () =>{
