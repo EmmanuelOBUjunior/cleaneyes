@@ -3,7 +3,7 @@ import React from 'react'
 
 const MovieCard = ({movie}) => {
   return (
-   <Link href = "">
+   <Link href = {`/movies/${movie.id}`}>
    
    </Link>
   )
