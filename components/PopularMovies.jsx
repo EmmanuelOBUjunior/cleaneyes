@@ -18,10 +18,10 @@ const PopularMovies = () => {
     <>
         <div>Popular Movies Here</div>
         {
-            movies.map((movie) =>{
+            movies&&movies.map((movie) =>{
                 return(
                     <>
-                    <h3>{}</h3>
+                    <h3>{movie.title}</h3>
                     </>
                 )
             })
