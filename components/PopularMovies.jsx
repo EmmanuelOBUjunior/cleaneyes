@@ -6,7 +6,7 @@ const PopularMovies = () => {
 
     useEffect(() =>{
         const getMovies = async () => {
-            const fetchMovies = await fetch('https://api.themoviedb.org/3/movie/popular?language=en-US&page=1&api_key=770394810aba91efa65fbbc53aa4de60');
+            const fetchMovies = await fetch(`https://api.themoviedb.org/3/movie/popular?language=en-US&page=1&api_key=${process.env.API_KEY}`);
             const movieresponse = await fetchMovies.json();
             console.log(movieresponse.results)
             
