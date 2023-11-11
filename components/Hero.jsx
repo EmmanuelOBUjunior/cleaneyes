@@ -5,7 +5,7 @@ const Hero = () => {
   return (
    <div className='bg-white mt text-center pb-10'>
     <div>
-       <Image src={"/public/undraw_home_cinema_l7yl.svg"} weight={200} height={200}/> 
+       <Image src={"/public/undraw_home_cinema_l7yl.svg"} width={200} height={200}/> 
     </div>
 
    </div>
