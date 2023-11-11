@@ -2,7 +2,7 @@
 import {useEffect, useState} from 'react';
 
 const PopularMovies = () => {
-    const MY_API_KEY = '770394810aba91efa65fbbc53aa4de60'
+    const MY_API_KEY = process.env.API_KEY
     const [movies, setMovies] = useState()
 
     useEffect(() =>{
