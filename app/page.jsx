@@ -3,8 +3,10 @@ import PopularMovies from "@/components/PopularMovies"
 
 export default function Home() {
   return (
-      <Hero/>
-      <PopularMovies
+    <>
+    <Hero/>
+    <PopularMovies/>
+    </>
   )
 }
 
