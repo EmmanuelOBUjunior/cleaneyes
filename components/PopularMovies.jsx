@@ -14,15 +14,7 @@ const PopularMovies = () => {
         .catch(err => console.error(err));
   return (
     <>
-    {movies && movies.length && movies.map((movie) =>{
-        return (
-            <>
-            <div>{movie.title}</div>
-            </>
-        )
-    })
     
-    }
     </>
   )
 }
