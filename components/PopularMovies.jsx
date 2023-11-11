@@ -10,6 +10,8 @@ const PopularMovies = () => {
             const movieresponse = await fetchMovies.json();
             console.log("Response from API", movieresponse)
         }
+
+        getMovies()
     },[])
   return (
     <>
