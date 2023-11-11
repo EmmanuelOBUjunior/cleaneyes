@@ -1,11 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
 const MovieCard = ({movie}) => {
   return (
-    <>
-    <div>{movie.title}</div>
-    <div>{movie.id}</div>
-    </>
+   <Link href = "">
+   
+   </Link>
   )
 }
 
