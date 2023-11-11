@@ -26,7 +26,7 @@ const PopularMovies = () => {
             movies && movies.length && movies.map((movie) =>{
                 return(
                     <>
-                    <MovieCard/>
+                    <MovieCard movie = {movie} key={movie.id}/>
                     </>
                 )
             })
