@@ -21,7 +21,7 @@ const MovieDetails = () => {
     <div className='container mx-auto pt-6 max-w-4xl'>
       <div className='px-3'>
       <Image src={`https://image.tmdb.org/t/p/w500${detail.backdrop_path}`} width={1000} height={600} alt={`${detail.original_title} poster picture`}/>
-      <h1 className=''>{detail.title}</h1>
+      <h1 className='font-bold '>{detail.title}</h1>
       </div>
     </div>
   )
