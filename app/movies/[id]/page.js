@@ -19,11 +19,10 @@ const MovieDetails = () => {
   },[params.id])
   return (
     <div className='container mx-auto pt-6 max-w-4xl'>
-      <div className=''>
+      <div className='px-3'>
       <Image src={`https://image.tmdb.org/t/p/w500${detail.backdrop_path}`} width={1000} height={600} alt={`${detail.original_title} poster picture`}/>
+      
       </div>
-      {detail.original_title}
-      {detail.overview}
     </div>
   )
 }
