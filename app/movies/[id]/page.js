@@ -16,7 +16,7 @@ const MovieDetails = () => {
     }
 
     detailsFetch();
-  },[])
+  },[params.id])
   return (
     <div className='container mx-auto pt-6 max-w-4xl'>
       <div className='px-3'>
