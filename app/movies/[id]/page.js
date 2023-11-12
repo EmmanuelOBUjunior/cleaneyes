@@ -6,7 +6,7 @@ const MovieDetails = () => {
 
   useEffect(() =>{
     const detailsFetch = async () =>{
-      const fetchdetail = await fetch()
+      const fetchdetail = await fetch(`https://api.themoviedb.org/3/movie/678512?language=en-US&api_key=770394810aba91efa65fbbc53aa4de60`)
     }
   },[])
   return (
