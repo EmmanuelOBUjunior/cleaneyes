@@ -1,7 +1,8 @@
 'use client'
 import {useEffect, useState} from 'react'
 
-const MovieDetails = () => {
+const MovieDetails = (movie) => {
+  console.log(movie._id)
   const [details, getDetails] = useState()
 
   useEffect(() =>{
@@ -10,6 +11,8 @@ const MovieDetails = () => {
       const response = await fetchdetail.json()
       console.log(response)
     }
+
+    detailsFetch();
   },[])
   return (
     <div>Movie Details</div>
