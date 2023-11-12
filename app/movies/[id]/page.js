@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react'
 import { useParams } from 'next/navigation'
 
 const MovieDetails = () => {
-  const [detail, getDetails] = useState()
+  const [detail, getDetails] = useState({})
   const params = useParams()
 
   useEffect(() =>{
