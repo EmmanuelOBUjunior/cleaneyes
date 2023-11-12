@@ -17,7 +17,7 @@ const MovieDetails = () => {
     detailsFetch();
   },[params.id])
   return (
-    <div>{details.original_title}</div>
+    <div>{detail.original_title}</div>
   )
 }
 
