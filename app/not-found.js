@@ -15,7 +15,7 @@ const NotFound = () => {
     })
 
   return (
-    <div>The page you are looking for cannot be found</div>
+    <div>The page you are looking for cannot be found. We will redirect you to the homepage in 5 seconds</div>
   )
 }
 
