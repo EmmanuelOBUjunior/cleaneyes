@@ -1,8 +1,17 @@
-import React from 'react'
+import { useRouter } from 'next/router'
+import React, { useEffect } from 'react'
 
 const NotFound = () => {
+    const router = useRouter()
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+
+        }, 5000)
+    },[])
+
   return (
-    <div>Page Not Found</div>
+    <div>The page you are looking for cannot be found</div>
   )
 }
 
