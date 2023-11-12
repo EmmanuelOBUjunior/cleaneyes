@@ -24,6 +24,7 @@ const MovieDetails = () => {
       <h1 className='font-bold text-xl my-2'>{detail.title}</h1>
       <p className='text-gray-600 text-sm mt-4'>{detail.overview}</p>
       <p className='text-gray-600 text-sm mt-5'>{detail.overview}</p>
+      <p className='text-gray-600 text-sm mt-5'>Release Date: <span className='font-bold'></span></p>
       </div>
     </div>
   )
