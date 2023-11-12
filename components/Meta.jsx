@@ -6,6 +6,9 @@ const Meta = () => {
   )
 }
 
-Meta.defu
+Meta.defualtProps ={
+    title: "Clean Eyes",
+    description: "Clean you eyes mahn, you deserve it "
+}
 
 export default Meta
