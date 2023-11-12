@@ -20,10 +20,10 @@ const MovieDetails = () => {
   return (
     <div className='container mx-auto pt-6 max-w-4xl'>
       <div className='px-3'>
-      <Image src={`https://image.tmdb.org/t/p/w500${detail.backdrop_path}`} width={1000} height={600} alt={`${detail.original_title} poster picture`}/>
+      <Image src={ `https://image.tmdb.org/t/p/w500${detail.backdrop_path}`} width={1000} height={600} alt={`${detail.original_title} poster picture`}/>
       <h1 className='font-bold text-xl my-2'>{detail.title}</h1>
       <p className='text-gray-600 text-sm mt-4'>{detail.overview}</p>
-      <p className='text-gray-600 text-sm mt-5'>Genres: <span className='font-bold'>{detail.genres.map(genre => genre.name).join(", ")}</span></p>
+      {/* <p className='text-gray-600 text-sm mt-5'>Genres: <span className='font-bold'>{detail.genres.map(genre => genre.name).join(", ")}</span></p> */}
       <p className='text-gray-600 text-sm'>Release Date: <span className='font-bold'>{detail.release_date}</span></p>
       </div>
     </div>
