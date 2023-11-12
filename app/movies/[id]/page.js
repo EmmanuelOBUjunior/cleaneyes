@@ -19,6 +19,7 @@ const MovieDetails = () => {
   return (
     <div>
       {detail.original_title}
+      {detail.overview}
     </div>
   )
 }
