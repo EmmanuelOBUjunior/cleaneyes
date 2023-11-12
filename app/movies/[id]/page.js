@@ -20,7 +20,7 @@ const MovieDetails = () => {
   return (
     <div className='container mx-auto pt-6 max-w-4xl'>
       <div>
-      <Image src={``}/>
+      <Image src={`https://image.tmdb.org/t/p/w500${detail.backdrop_path}`}/>
       </div>
       {detail.original_title}
       {detail.overview}
