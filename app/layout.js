@@ -1,5 +1,3 @@
-
-import Meta from '@/components/Meta'
 import Nav from '@/components/Nav'
 import '@/styles/globals.css'
 
