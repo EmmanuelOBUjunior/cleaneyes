@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Meta from '@/components/Meta'
 import Nav from '@/components/Nav'
 import '@/styles/globals.css'
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <Nav/>
         {children}
         </body>
+        <Footer/>
     </html>
   )
 }
