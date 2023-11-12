@@ -10,4 +10,9 @@ const Contact = () => {
   )
 }
 
+export const metadata = {
+  title: 'Contact US',
+  description: 'Clean your eyes mahn, you deserve it',
+}
+
 export default Contact
