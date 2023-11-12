@@ -23,7 +23,9 @@ const MovieDetails = () => {
       <Image src={ `https://image.tmdb.org/t/p/w500${detail.backdrop_path}`} width={1000} height={600} alt={`${detail.original_title} poster picture`}/>
       <h1 className='font-bold text-xl my-2'>{detail.title}</h1>
       <p className='text-gray-600 text-sm mt-4'>{detail.overview}</p>
-      <p className='text-gray-600 text-sm mt-5'>Genres: <span className='font-bold'>{detail.genres.map(genre => genre.name).join(", ")}</span></p>
+      <p className='text-gray-600 text-sm mt-5'>Genres: {detail.genres.map((genre, id) => (
+        <span className='font-bold' key={id}>{genre.name}</span>
+      ))}</p>
       <p className='text-gray-600 text-sm'>Release Date: <span className='font-bold'>{detail.release_date}</span></p>
       </div>
     </div>
