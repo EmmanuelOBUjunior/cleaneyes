@@ -22,6 +22,7 @@ const MovieDetails = () => {
       <div className='px-3'>
       <Image src={`https://image.tmdb.org/t/p/w500${detail.backdrop_path}`} width={1000} height={600} alt={`${detail.original_title} poster picture`}/>
       <h1 className='font-bold text-xl my-2'>{detail.title}</h1>
+      <p>{detail.overview}</p>
       </div>
     </div>
   )
