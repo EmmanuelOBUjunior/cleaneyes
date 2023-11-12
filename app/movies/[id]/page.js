@@ -1,6 +1,7 @@
 'use client'
 import {useEffect, useState} from 'react'
 import { useParams } from 'next/navigation'
+import Image from 'next/image'
 
 const MovieDetails = () => {
   const [detail, getDetails] = useState({})
@@ -19,7 +20,7 @@ const MovieDetails = () => {
   return (
     <div className='container mx-auto pt-6 max-w-4xl'>
       <div>
-
+      <Image src={``}/>
       </div>
       {detail.original_title}
       {detail.overview}
