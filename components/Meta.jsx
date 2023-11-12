@@ -15,6 +15,7 @@ const Meta = ({keywords, description, title}) => {
 
 
 export default Meta
+
 Meta.defaultProps ={
     title: "Clean Eyes",
     description: "Clean you eyes mahn, you deserve it ",
