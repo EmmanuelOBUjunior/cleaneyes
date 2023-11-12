@@ -17,7 +17,7 @@ const MovieDetails = () => {
     detailsFetch();
   },[params.id])
   return (
-    <div>
+    <div className='container mx-auto px-6 max-w-4xl'>
       {detail.original_title}
       {detail.overview}
     </div>
