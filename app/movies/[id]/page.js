@@ -24,7 +24,7 @@ const MovieDetails = () => {
       <h1 className='font-bold text-xl my-2'>{detail.title}</h1>
       <p className='text-gray-600 text-sm mt-4'>{detail.overview}</p>
       {detail.genres && (<p className='text-gray-600 text-sm mt-5'>Genres: {detail.genres.map((genre, id) => (
-        <span className='font-bold' key={id}>{genre.name}</span>
+        <span className='font-bold' key={id}>{genre.name}, </span>
       ))}</p>)}
       <p className='text-gray-600 text-sm'>Release Date: <span className='font-bold'>{detail.release_date}</span></p>
       </div>
