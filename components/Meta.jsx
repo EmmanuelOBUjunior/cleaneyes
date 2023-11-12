@@ -13,10 +13,10 @@ const Meta = ({keywords, description, title}) => {
   )
 }
 
+
+export default Meta
 Meta.defaultProps ={
     title: "Clean Eyes",
     description: "Clean you eyes mahn, you deserve it ",
     keywords: 'movie app, popular movies, movies'
 }
-
-export default Meta
