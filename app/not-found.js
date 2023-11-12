@@ -1,6 +1,6 @@
 'use client'
 
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import React, { useEffect } from 'react'
 
 const NotFound = () => {
@@ -10,7 +10,9 @@ const NotFound = () => {
         const timer = setTimeout(() => {
             router.push('./')
         }, 5000)
-    },[])
+
+        return () => clearTimeout(timer)
+    })
 
   return (
     <div>The page you are looking for cannot be found</div>
