@@ -13,7 +13,7 @@ const Meta = ({keywords, description, title}) => {
   )
 }
 
-Meta.defualtProps ={
+Meta.defaultProps ={
     title: "Clean Eyes",
     description: "Clean you eyes mahn, you deserve it ",
     keywords: 'movie app, popular movies, movies'
